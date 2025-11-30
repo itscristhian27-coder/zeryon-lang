@@ -1,0 +1,28 @@
+(* Zeryon Grammar v0.1.0 *)
+
+program        = { import | declaration } ;
+
+import         = "import" identifier ;
+
+declaration    = appDecl | pageDecl | componentDecl ;
+
+appDecl        = "app" identifier "{" "start" ":" identifier "}" ;
+
+pageDecl       = "page" identifier "{" layoutDecl "}" ;
+
+layoutDecl     = "layout" ":" layoutType "{" propertyList "}" ;
+
+layoutType     = "Column" | "Row" | "Stack" | "Container" ;
+
+propertyList   = { property } ;
+
+property       = identifier ":" literal ;
+
+literal        = string | number | boolean | identifier ;
+
+componentDecl  = "component" identifier "{" layoutDecl "}" ;
+
+string         = '"' { character } '"' ;
+number         = digit { digit } [ "." digit { digit } ] ;
+boolean        = "true" | "false" ;
+identifier     = letter { letter | digit | "_" } ;

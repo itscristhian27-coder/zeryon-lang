@@ -1,0 +1,24 @@
+// api_example.zy – Llamada a API
+
+component ApiExample {
+    state response: ""
+
+    layout: Column {
+        children: [
+            Button {
+                text: "Obtener datos"
+                onClick: fetchData
+            },
+            Text {
+                text: response
+            }
+        ]
+    }
+
+    function fetchData {
+        fetch("https://api.zeryon.dev/users")
+            .then(data => {
+                response = data[0].name
+            })
+    }
+}

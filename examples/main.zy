@@ -1,0 +1,7 @@
+// Main.zy – Punto de entrada de la app
+import ui
+import pages/page_home
+
+app MiApp {
+    start: HomePage
+}

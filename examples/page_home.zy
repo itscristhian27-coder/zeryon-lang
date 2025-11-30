@@ -1,0 +1,19 @@
+// page_home.zy – Página principal
+
+page HomePage {
+    layout: Column {
+        children: [
+            Text {
+                text: "Bienvenido a Zeryon"
+                font: "Poppins-Bold"
+                size: 32
+                color: "#FF5733"
+            },
+            Image {
+                src: "https://zeryon.dev/logo.png"
+                width: 200
+                height: 200
+            }
+        ]
+    }
+}
