@@ -1,0 +1,1 @@
+D:\Trabajo\Proyecto\ Zeryon\zeryon-project\zeryon-lang\core\target\debug\core.exe: D:\Trabajo\Proyecto\ Zeryon\zeryon-project\zeryon-lang\core\src\lexer.rs D:\Trabajo\Proyecto\ Zeryon\zeryon-project\zeryon-lang\core\src\lib.rs D:\Trabajo\Proyecto\ Zeryon\zeryon-project\zeryon-lang\core\src\main.rs D:\Trabajo\Proyecto\ Zeryon\zeryon-project\zeryon-lang\core\src\token.rs

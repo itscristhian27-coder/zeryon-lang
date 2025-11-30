@@ -1,0 +1,12 @@
+[package]
+name = "zeryon_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "zeryon_core"
+path = "src/lib.rs"
+
+[[bin]]
+name = "core"
+path = "src/main.rs"
