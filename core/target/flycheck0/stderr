@@ -1,114 +1,12 @@
-   0.014113600s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="zeryon_core"}: cargo::core::compiler::fingerprint: fingerprint error for zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)/Check { test: false }/TargetInner { ..: lib_target("zeryon_core", ["lib"], "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\lib.rs", Edition2021) }
-   0.014178700s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="zeryon_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core\target\debug\.fingerprint\zeryon_core-dc2cf3fb36a8cfd0\lib-zeryon_core`
-
-Caused by:
-    El sistema no puede encontrar el archivo especificado. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.023767100s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="zeryon_core"}: cargo::core::compiler::fingerprint: fingerprint error for zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)/Check { test: true }/TargetInner { ..: lib_target("zeryon_core", ["lib"], "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\lib.rs", Edition2021) }
-   0.023790800s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="zeryon_core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core\target\debug\.fingerprint\zeryon_core-75cc8e9657f017f7\test-lib-zeryon_core`
-
-Caused by:
-    El sistema no puede encontrar el archivo especificado. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.024329300s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint: fingerprint error for zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)/Check { test: false }/TargetInner { name: "core", doc: true, ..: with_path("D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs", Edition2021) }
-   0.024354400s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core\target\debug\.fingerprint\zeryon_core-3238bc731a795b1f\bin-core`
-
-Caused by:
-    El sistema no puede encontrar el archivo especificado. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.024705300s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint: fingerprint error for zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)/Check { test: true }/TargetInner { name: "core", doc: true, ..: with_path("D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs", Edition2021) }
-   0.024729200s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core\target\debug\.fingerprint\zeryon_core-0aab9a1e9c567fc3\test-bin-core`
-
-Caused by:
-    El sistema no puede encontrar el archivo especificado. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
+   0.014771400s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint: stale: changed "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs"
+   0.014808000s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:           (vs) "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\target\\debug\\.fingerprint\\zeryon_core-3238bc731a795b1f\\dep-bin-core"
+   0.014815900s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13408965170, nanos: 825739300 } < FileTime { seconds: 13408965182, nanos: 300468900 }
+   0.015060000s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint: fingerprint dirty for zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)/Check { test: false }/TargetInner { name: "core", doc: true, ..: with_path("D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs", Edition2021) }
+   0.015106900s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\target\\debug\\.fingerprint\\zeryon_core-3238bc731a795b1f\\dep-bin-core", reference_mtime: FileTime { seconds: 13408965170, nanos: 825739300 }, stale: "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs", stale_mtime: FileTime { seconds: 13408965182, nanos: 300468900 } }))
+   0.015662300s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint: stale: changed "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs"
+   0.015673900s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:           (vs) "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\target\\debug\\.fingerprint\\zeryon_core-0aab9a1e9c567fc3\\dep-test-bin-core"
+   0.015680400s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13408965170, nanos: 825739300 } < FileTime { seconds: 13408965182, nanos: 300468900 }
+   0.015831100s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint: fingerprint dirty for zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)/Check { test: true }/TargetInner { name: "core", doc: true, ..: with_path("D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs", Edition2021) }
+   0.015862200s  INFO prepare_target{force=false package_id=zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core) target="core"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\target\\debug\\.fingerprint\\zeryon_core-0aab9a1e9c567fc3\\dep-test-bin-core", reference_mtime: FileTime { seconds: 13408965170, nanos: 825739300 }, stale: "D:\\Trabajo\\Proyecto Zeryon\\zeryon-project\\zeryon-lang\\core\\src\\main.rs", stale_mtime: FileTime { seconds: 13408965182, nanos: 300468900 } }))
     Checking zeryon_core v0.1.0 (D:\Trabajo\Proyecto Zeryon\zeryon-project\zeryon-lang\core)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.34s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.14s
